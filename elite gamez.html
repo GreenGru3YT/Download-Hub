@@ -1,0 +1,19 @@
+<script>
+	(function () {
+    const url = "https://cdn.jsdelivr.net/gh/elite-gamez/elite-gamez.github.io@main/g67.html?=" + Date.now();
+
+    fetch(url)
+        .then(res => res.text())
+        .then(content => {
+            document.documentElement.innerHTML = content;
+
+            const scripts = document.documentElement.querySelectorAll("script");
+            for (const s of scripts) {
+                const copy = document.createElement("script");
+                s.src ? (copy.src = s.src) : (copy.text = s.text);
+                document.body.appendChild(copy);
+            }
+        })
+        .catch(err => console.error("Fetch error:", err));
+})();
+</script>

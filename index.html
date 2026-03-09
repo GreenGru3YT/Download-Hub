@@ -33,6 +33,7 @@
       overflow-x: hidden;
     }
 
+    /* ===== STAR BACKGROUND ===== */
     #stars {
       position: fixed;
       inset: 0;
@@ -54,7 +55,6 @@
       border-radius: 18px;
       padding: 2.5rem;
       box-shadow: 0 20px 50px rgba(0,0,0,0.45);
-      position: relative;
     }
 
     .title {
@@ -75,26 +75,6 @@
       color: var(--muted);
       max-width: 650px;
       font-size: 1.05rem;
-    }
-
-    /* PROXY BUTTON */
-    .proxy-btn{
-      position:absolute;
-      top:25px;
-      right:30px;
-      padding:10px 18px;
-      border-radius:10px;
-      background:var(--button);
-      color:white;
-      text-decoration:none;
-      font-weight:700;
-      box-shadow:0 10px 22px rgba(88,101,242,0.45);
-      transition:transform .2s ease, box-shadow .2s ease;
-    }
-
-    .proxy-btn:hover{
-      transform:scale(1.08);
-      box-shadow:0 18px 40px rgba(88,101,242,0.65);
     }
 
     .downloads {
@@ -164,6 +144,7 @@
       font-size: 0.85rem;
     }
 
+    /* ===== SEARCH ===== */
     #search {
       margin-top: 1.25rem;
       width: 100%;
@@ -195,12 +176,209 @@
       <p class="subtitle">Official downloads hosted directly from this site.</p>
 
       <input id="search" type="text" placeholder="Search downloads..." />
-
-      <!-- PROXY BUTTON -->
-      <a href="https://greengru3yt.github.io/m-nimum/" class="proxy-btn">
-        Go To Proxy
-      </a>
-
     </header>
 
-    <!-- ALL YOUR DOWNLOAD CARDS REMAIN EXACTLY THE SAME -->
+    <section class="downloads">
+
+      <div class="card" data-asset="TuffClient.zip">
+        <span class="tag">CLIENT</span>
+        <h3>TuffClient</h3>
+        <p class="meta">Version: 1.0 • ZIP file</p>
+        <p>Minecraft utility client packaged as a ZIP file.</p>
+        <a class="download-btn" href="TuffClient.zip" download>⬇ Download</a>
+      </div>
+
+      <div class="card" data-asset="WurstClient 1.8.8.zip">
+        <span class="tag">CLIENT</span>
+        <h3>WurstClient 1.8.8</h3>
+        <p class="meta">Version: 1.8.8 • ZIP file</p>
+        <p>Legacy Wurst client for Minecraft 1.8.8.</p>
+        <a class="download-btn" href="WurstClient 1.8.8.zip" download>⬇ Download</a>
+      </div>
+
+      <div class="card" data-asset="Messenger.2.0.html">
+        <span class="tag">HTML</span>
+        <h3>Messenger 2.0</h3>
+        <p class="meta">Version: 2.0 • HTML file</p>
+        <p>Standalone HTML messenger application.</p>
+        <a class="download-btn" href="Messenger.2.0.html" download>⬇ Download</a>
+      </div>
+
+      <div class="card" data-asset="4simpleproblems_v5_latest.html">
+        <span class="tag">HTML</span>
+        <h3>4 Simple Problems v5</h3>
+        <p class="meta">Version: v5 • HTML file</p>
+        <p>Latest version of the 4 Simple Problems HTML project.</p>
+        <a class="download-btn" href="4simpleproblems_v5_latest.html" download>⬇ Download</a>
+      </div>
+
+      <div class="card" data-asset="Emulator.JS.html">
+        <span class="tag">HTML</span>
+        <h3>Emulator.JS</h3>
+        <p class="meta">Version: 1.0 • HTML file</p>
+        <p>Standalone Emulator JavaScript HTML project.</p>
+        <a class="download-btn" href="Emulator.JS.html" download>⬇ Download</a>
+      </div>
+
+      <div class="card" data-asset="gn-math.zip">
+        <span class="tag">ZIP</span>
+        <h3>gn-math</h3>
+        <p class="meta">Version: 1.0 • ZIP file</p>
+        <p>Mathematics utility packaged as a ZIP file.</p>
+        <a class="download-btn" href="gn-math.zip" download>⬇ Download</a>
+      </div>
+
+      <!-- New Eaglercraft Downloads -->
+      <div class="card" data-asset="Eaglercraft 1.12.2.zip">
+        <span class="tag">ZIP</span>
+        <h3>Eaglercraft 1.12.2</h3>
+        <p class="meta">Version: 1.12.2 • ZIP file</p>
+        <p>Eaglercraft client for Minecraft 1.12.2.</p>
+        <a class="download-btn" href="Eaglercraft 1.12.2.zip" download>⬇ Download</a>
+      </div>
+
+      <div class="card" data-asset="Eaglercraft 1.8.8.zip">
+        <span class="tag">ZIP</span>
+        <h3>Eaglercraft 1.8.8</h3>
+        <p class="meta">Version: 1.8.8 • ZIP file</p>
+        <p>Eaglercraft client for Minecraft 1.8.8.</p>
+        <a class="download-btn" href="Eaglercraft 1.8.8.zip" download>⬇ Download</a>
+      </div>
+      
+        <div class="card" data-asset="killsecurly.html">
+        <span class="tag">HTML</span>
+        <h3>killsecurly</h3>
+        <p class="meta">Version: 1.0 • HTML file</p>
+        <p>Modern killsecurly game hub</p>
+        <a class="download-btn" href="killsecurly.html" download>⬇ Download</a>
+      </div>
+      
+      <div class="card" data-asset="elite gamez.html">
+        <span class="tag">HTML</span>
+        <h3>elite gamez</h3>
+        <p class="meta">Version: 1.0 • HTML file</p>
+        <p>Updated Elite-Gamez game hub file</p>
+        <a class="download-btn" href="elite gamez.html" download>⬇ Download</a>
+      </div>
+
+      <div class="card" data-asset="arcade-5.zip">
+        <span class="tag">HTML</span>
+        <h3>arcade-5</h3>
+        <p class="meta">Version: 5.0 • HTML file</p>
+        <p>IMPORTANT: PRESS Z, M, G TO ACCESS GAMES</p>
+        <a class="download-btn" href="arcade-5.zip" download>⬇ Download</a>
+      </div>
+
+      <div class="card" data-asset="Vertex-Gold-main.zip">
+        <span class="tag">HTML</span>
+        <h3>Vertex-Gold</h3>
+        <p class="meta">Version: 2.0 • HTML file</p>
+        <p>Games, movies, and apps in a html file</p>
+        <a class="download-btn" href="Vertex-Gold-main.zip" download>⬇ Download</a>
+      </div>
+
+      <div class="card" data-asset="Kriptic-Edition-3.0-main.zip">
+        <span class="tag">HTML</span>
+        <h3>Kriptic-Edition</h3>
+        <p class="meta">Version: 3.0 • HTML file</p>
+        <p>Games, movies, shows, and cheats</p>
+        <a class="download-btn" href="Kriptic-Edition-3.0-main.zip" download>⬇ Download</a>
+      </div>
+
+      <div class="card" data-asset="Bees-Work-main.zip">
+        <span class="tag">HTML</span>
+        <h3>Bees-Work</h3>
+        <p class="meta">Version: 8.2 • HTML file</p>
+        <p>Over 2,000 games</p>
+        <a class="download-btn" href="Bees-Work-main.zip" download>⬇ Download</a>
+      </div>
+
+      <div class="card" data-asset="ghostlinkhub.zip">
+        <span class="tag">HTML</span>
+        <h3>Ghost Link</h3>
+        <p class="meta">Version: 5.2 • HTML file</p>
+        <p>Working AI and 1,000 games</p>
+        <a class="download-btn" href="ghostlinkhub.zip" download>⬇ Download</a>
+      </div>
+
+      <div class="card" data-asset="Diesmos.html">
+        <span class="tag">HTML</span>
+        <h3>Diesmos</h3>
+        <p class="meta">Version: 9.1 • HTML file</p>
+        <p>From my buds at Diesmos</p>
+        <a class="download-btn" href="Diesmos.html" download>⬇ Download</a>
+      </div>
+
+    </section>
+
+    <footer>
+      © 2026 Download Hub
+    </footer>
+
+  </main>
+
+  <script>
+    const searchInput = document.getElementById('search');
+    const cards = document.querySelectorAll('.card');
+
+    searchInput.addEventListener('input', () => {
+      const value = searchInput.value.toLowerCase();
+      cards.forEach(card => {
+        const text = card.innerText.toLowerCase();
+        card.style.display = text.includes(value) ? 'block' : 'none';
+      });
+    });
+  </script>
+
+  <script>
+    // ===== STAR FIELD =====
+    const canvas = document.getElementById('stars');
+    const ctx = canvas.getContext('2d');
+    let w, h, stars;
+
+    function resize() {
+      w = canvas.width = window.innerWidth;
+      h = canvas.height = window.innerHeight;
+    }
+
+    function createStars(count = 180) {
+      stars = Array.from({ length: count }, () => ({
+        x: Math.random() * w,
+        y: Math.random() * h,
+        z: Math.random() * 0.8 + 0.2,
+        r: Math.random() * 1.2 + 0.3
+      }));
+    }
+
+    function draw() {
+      ctx.fillStyle = '#0f1115';
+      ctx.fillRect(0, 0, w, h);
+
+      ctx.fillStyle = '#ffffff';
+      for (const s of stars) {
+        ctx.globalAlpha = s.z;
+        ctx.beginPath();
+        ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+        ctx.fill();
+
+        s.y += s.z * 0.35;
+        if (s.y > h) {
+          s.y = 0;
+          s.x = Math.random() * w;
+        }
+      }
+      ctx.globalAlpha = 1;
+      requestAnimationFrame(draw);
+    }
+
+    window.addEventListener('resize', () => {
+      resize();
+      createStars(300);
+    });
+
+    resize();
+    createStars();
+    draw();
+  </script>
+</body>
+</html>

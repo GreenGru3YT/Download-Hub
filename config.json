@@ -1,11 +1,11 @@
 {
   "banner": {
     "enabled": false,
-    "message": "🎉 Welcome to Download Hub!",
+    "message": "ð Welcome to Download Hub!",
     "color": "blue"
   },
   "supabase": {
-    "url": "",
-    "anonKey": ""
+    "url": "https://qhnhtjubjsgncaphmflv.supabase.co",
+    "anonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFobmh0anVianNnbmNhcGhtZmx2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM5NzIyNTUsImV4cCI6MjA4OTU0ODI1NX0.8O1oH2jiQja_lbVoqWmMOwJxY157tQKUiDOY3Odj-_Q"
   }
 }
